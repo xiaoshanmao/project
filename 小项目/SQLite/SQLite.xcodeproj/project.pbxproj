@@ -1,0 +1,583 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18A164101C1EA5B5002AEFA3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A1640F1C1EA5B5002AEFA3 /* main.m */; };
+		18A164131C1EA5B5002AEFA3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A164121C1EA5B5002AEFA3 /* AppDelegate.m */; };
+		18A164161C1EA5B5002AEFA3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A164151C1EA5B5002AEFA3 /* ViewController.m */; };
+		18A164191C1EA5B5002AEFA3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18A164171C1EA5B5002AEFA3 /* Main.storyboard */; };
+		18A1641C1C1EA5B5002AEFA3 /* SQLite.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 18A1641A1C1EA5B5002AEFA3 /* SQLite.xcdatamodeld */; };
+		18A1641E1C1EA5B5002AEFA3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18A1641D1C1EA5B5002AEFA3 /* Assets.xcassets */; };
+		18A164211C1EA5B5002AEFA3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18A1641F1C1EA5B5002AEFA3 /* LaunchScreen.storyboard */; };
+		18A1642C1C1EA5B5002AEFA3 /* SQLiteTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A1642B1C1EA5B5002AEFA3 /* SQLiteTests.m */; };
+		18A164371C1EA5B5002AEFA3 /* SQLiteUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A164361C1EA5B5002AEFA3 /* SQLiteUITests.m */; };
+		18A164451C1EA621002AEFA3 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 18A164441C1EA621002AEFA3 /* libsqlite3.tbd */; };
+		18A164521C1EC039002AEFA3 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A164481C1EC039002AEFA3 /* FMDatabase.m */; };
+		18A164531C1EC039002AEFA3 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A1644A1C1EC039002AEFA3 /* FMDatabaseAdditions.m */; };
+		18A164541C1EC039002AEFA3 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A1644C1C1EC039002AEFA3 /* FMDatabasePool.m */; };
+		18A164551C1EC039002AEFA3 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A1644E1C1EC039002AEFA3 /* FMDatabaseQueue.m */; };
+		18A164561C1EC039002AEFA3 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A164511C1EC039002AEFA3 /* FMResultSet.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18A164281C1EA5B5002AEFA3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18A164031C1EA5B5002AEFA3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18A1640A1C1EA5B5002AEFA3;
+			remoteInfo = SQLite;
+		};
+		18A164331C1EA5B5002AEFA3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18A164031C1EA5B5002AEFA3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18A1640A1C1EA5B5002AEFA3;
+			remoteInfo = SQLite;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18A1640B1C1EA5B5002AEFA3 /* SQLite.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SQLite.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18A1640F1C1EA5B5002AEFA3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18A164111C1EA5B5002AEFA3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		18A164121C1EA5B5002AEFA3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		18A164141C1EA5B5002AEFA3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		18A164151C1EA5B5002AEFA3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		18A164181C1EA5B5002AEFA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18A1641B1C1EA5B5002AEFA3 /* SQLite.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SQLite.xcdatamodel; sourceTree = "<group>"; };
+		18A1641D1C1EA5B5002AEFA3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18A164201C1EA5B5002AEFA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18A164221C1EA5B5002AEFA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18A164271C1EA5B5002AEFA3 /* SQLiteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SQLiteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18A1642B1C1EA5B5002AEFA3 /* SQLiteTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SQLiteTests.m; sourceTree = "<group>"; };
+		18A1642D1C1EA5B5002AEFA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18A164321C1EA5B5002AEFA3 /* SQLiteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SQLiteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18A164361C1EA5B5002AEFA3 /* SQLiteUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SQLiteUITests.m; sourceTree = "<group>"; };
+		18A164381C1EA5B5002AEFA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18A164441C1EA621002AEFA3 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		18A164471C1EC039002AEFA3 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		18A164481C1EC039002AEFA3 /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		18A164491C1EC039002AEFA3 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		18A1644A1C1EC039002AEFA3 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		18A1644B1C1EC039002AEFA3 /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		18A1644C1C1EC039002AEFA3 /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		18A1644D1C1EC039002AEFA3 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		18A1644E1C1EC039002AEFA3 /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		18A1644F1C1EC039002AEFA3 /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
+		18A164501C1EC039002AEFA3 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		18A164511C1EC039002AEFA3 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18A164081C1EA5B5002AEFA3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18A164451C1EA621002AEFA3 /* libsqlite3.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18A164241C1EA5B5002AEFA3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18A1642F1C1EA5B5002AEFA3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18A164021C1EA5B5002AEFA3 = {
+			isa = PBXGroup;
+			children = (
+				18A164441C1EA621002AEFA3 /* libsqlite3.tbd */,
+				18A1640D1C1EA5B5002AEFA3 /* SQLite */,
+				18A1642A1C1EA5B5002AEFA3 /* SQLiteTests */,
+				18A164351C1EA5B5002AEFA3 /* SQLiteUITests */,
+				18A1640C1C1EA5B5002AEFA3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18A1640C1C1EA5B5002AEFA3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18A1640B1C1EA5B5002AEFA3 /* SQLite.app */,
+				18A164271C1EA5B5002AEFA3 /* SQLiteTests.xctest */,
+				18A164321C1EA5B5002AEFA3 /* SQLiteUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18A1640D1C1EA5B5002AEFA3 /* SQLite */ = {
+			isa = PBXGroup;
+			children = (
+				18A164111C1EA5B5002AEFA3 /* AppDelegate.h */,
+				18A164121C1EA5B5002AEFA3 /* AppDelegate.m */,
+				18A164141C1EA5B5002AEFA3 /* ViewController.h */,
+				18A164151C1EA5B5002AEFA3 /* ViewController.m */,
+				18A164171C1EA5B5002AEFA3 /* Main.storyboard */,
+				18A1641D1C1EA5B5002AEFA3 /* Assets.xcassets */,
+				18A1641F1C1EA5B5002AEFA3 /* LaunchScreen.storyboard */,
+				18A164221C1EA5B5002AEFA3 /* Info.plist */,
+				18A164461C1EC039002AEFA3 /* fmdb */,
+				18A1641A1C1EA5B5002AEFA3 /* SQLite.xcdatamodeld */,
+				18A1640E1C1EA5B5002AEFA3 /* Supporting Files */,
+			);
+			path = SQLite;
+			sourceTree = "<group>";
+		};
+		18A1640E1C1EA5B5002AEFA3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18A1640F1C1EA5B5002AEFA3 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		18A1642A1C1EA5B5002AEFA3 /* SQLiteTests */ = {
+			isa = PBXGroup;
+			children = (
+				18A1642B1C1EA5B5002AEFA3 /* SQLiteTests.m */,
+				18A1642D1C1EA5B5002AEFA3 /* Info.plist */,
+			);
+			path = SQLiteTests;
+			sourceTree = "<group>";
+		};
+		18A164351C1EA5B5002AEFA3 /* SQLiteUITests */ = {
+			isa = PBXGroup;
+			children = (
+				18A164361C1EA5B5002AEFA3 /* SQLiteUITests.m */,
+				18A164381C1EA5B5002AEFA3 /* Info.plist */,
+			);
+			path = SQLiteUITests;
+			sourceTree = "<group>";
+		};
+		18A164461C1EC039002AEFA3 /* fmdb */ = {
+			isa = PBXGroup;
+			children = (
+				18A164471C1EC039002AEFA3 /* FMDatabase.h */,
+				18A164481C1EC039002AEFA3 /* FMDatabase.m */,
+				18A164491C1EC039002AEFA3 /* FMDatabaseAdditions.h */,
+				18A1644A1C1EC039002AEFA3 /* FMDatabaseAdditions.m */,
+				18A1644B1C1EC039002AEFA3 /* FMDatabasePool.h */,
+				18A1644C1C1EC039002AEFA3 /* FMDatabasePool.m */,
+				18A1644D1C1EC039002AEFA3 /* FMDatabaseQueue.h */,
+				18A1644E1C1EC039002AEFA3 /* FMDatabaseQueue.m */,
+				18A1644F1C1EC039002AEFA3 /* FMDB.h */,
+				18A164501C1EC039002AEFA3 /* FMResultSet.h */,
+				18A164511C1EC039002AEFA3 /* FMResultSet.m */,
+			);
+			path = fmdb;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18A1640A1C1EA5B5002AEFA3 /* SQLite */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18A1643B1C1EA5B5002AEFA3 /* Build configuration list for PBXNativeTarget "SQLite" */;
+			buildPhases = (
+				18A164071C1EA5B5002AEFA3 /* Sources */,
+				18A164081C1EA5B5002AEFA3 /* Frameworks */,
+				18A164091C1EA5B5002AEFA3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SQLite;
+			productName = SQLite;
+			productReference = 18A1640B1C1EA5B5002AEFA3 /* SQLite.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18A164261C1EA5B5002AEFA3 /* SQLiteTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18A1643E1C1EA5B5002AEFA3 /* Build configuration list for PBXNativeTarget "SQLiteTests" */;
+			buildPhases = (
+				18A164231C1EA5B5002AEFA3 /* Sources */,
+				18A164241C1EA5B5002AEFA3 /* Frameworks */,
+				18A164251C1EA5B5002AEFA3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18A164291C1EA5B5002AEFA3 /* PBXTargetDependency */,
+			);
+			name = SQLiteTests;
+			productName = SQLiteTests;
+			productReference = 18A164271C1EA5B5002AEFA3 /* SQLiteTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		18A164311C1EA5B5002AEFA3 /* SQLiteUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18A164411C1EA5B5002AEFA3 /* Build configuration list for PBXNativeTarget "SQLiteUITests" */;
+			buildPhases = (
+				18A1642E1C1EA5B5002AEFA3 /* Sources */,
+				18A1642F1C1EA5B5002AEFA3 /* Frameworks */,
+				18A164301C1EA5B5002AEFA3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18A164341C1EA5B5002AEFA3 /* PBXTargetDependency */,
+			);
+			name = SQLiteUITests;
+			productName = SQLiteUITests;
+			productReference = 18A164321C1EA5B5002AEFA3 /* SQLiteUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18A164031C1EA5B5002AEFA3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "apple 公司";
+				TargetAttributes = {
+					18A1640A1C1EA5B5002AEFA3 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					18A164261C1EA5B5002AEFA3 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 18A1640A1C1EA5B5002AEFA3;
+					};
+					18A164311C1EA5B5002AEFA3 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 18A1640A1C1EA5B5002AEFA3;
+					};
+				};
+			};
+			buildConfigurationList = 18A164061C1EA5B5002AEFA3 /* Build configuration list for PBXProject "SQLite" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18A164021C1EA5B5002AEFA3;
+			productRefGroup = 18A1640C1C1EA5B5002AEFA3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18A1640A1C1EA5B5002AEFA3 /* SQLite */,
+				18A164261C1EA5B5002AEFA3 /* SQLiteTests */,
+				18A164311C1EA5B5002AEFA3 /* SQLiteUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18A164091C1EA5B5002AEFA3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18A164211C1EA5B5002AEFA3 /* LaunchScreen.storyboard in Resources */,
+				18A1641E1C1EA5B5002AEFA3 /* Assets.xcassets in Resources */,
+				18A164191C1EA5B5002AEFA3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18A164251C1EA5B5002AEFA3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18A164301C1EA5B5002AEFA3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18A164071C1EA5B5002AEFA3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18A164161C1EA5B5002AEFA3 /* ViewController.m in Sources */,
+				18A164551C1EC039002AEFA3 /* FMDatabaseQueue.m in Sources */,
+				18A1641C1C1EA5B5002AEFA3 /* SQLite.xcdatamodeld in Sources */,
+				18A164131C1EA5B5002AEFA3 /* AppDelegate.m in Sources */,
+				18A164521C1EC039002AEFA3 /* FMDatabase.m in Sources */,
+				18A164541C1EC039002AEFA3 /* FMDatabasePool.m in Sources */,
+				18A164561C1EC039002AEFA3 /* FMResultSet.m in Sources */,
+				18A164101C1EA5B5002AEFA3 /* main.m in Sources */,
+				18A164531C1EC039002AEFA3 /* FMDatabaseAdditions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18A164231C1EA5B5002AEFA3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18A1642C1C1EA5B5002AEFA3 /* SQLiteTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18A1642E1C1EA5B5002AEFA3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18A164371C1EA5B5002AEFA3 /* SQLiteUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18A164291C1EA5B5002AEFA3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18A1640A1C1EA5B5002AEFA3 /* SQLite */;
+			targetProxy = 18A164281C1EA5B5002AEFA3 /* PBXContainerItemProxy */;
+		};
+		18A164341C1EA5B5002AEFA3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18A1640A1C1EA5B5002AEFA3 /* SQLite */;
+			targetProxy = 18A164331C1EA5B5002AEFA3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18A164171C1EA5B5002AEFA3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18A164181C1EA5B5002AEFA3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18A1641F1C1EA5B5002AEFA3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18A164201C1EA5B5002AEFA3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18A164391C1EA5B5002AEFA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		18A1643A1C1EA5B5002AEFA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18A1643C1C1EA5B5002AEFA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SQLite/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = buzhid.SQLite;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		18A1643D1C1EA5B5002AEFA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SQLite/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = buzhid.SQLite;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		18A1643F1C1EA5B5002AEFA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SQLiteTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = buzhid.SQLiteTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SQLite.app/SQLite";
+			};
+			name = Debug;
+		};
+		18A164401C1EA5B5002AEFA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SQLiteTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = buzhid.SQLiteTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SQLite.app/SQLite";
+			};
+			name = Release;
+		};
+		18A164421C1EA5B5002AEFA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SQLiteUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = buzhid.SQLiteUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SQLite;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		18A164431C1EA5B5002AEFA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SQLiteUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = buzhid.SQLiteUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SQLite;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18A164061C1EA5B5002AEFA3 /* Build configuration list for PBXProject "SQLite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18A164391C1EA5B5002AEFA3 /* Debug */,
+				18A1643A1C1EA5B5002AEFA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18A1643B1C1EA5B5002AEFA3 /* Build configuration list for PBXNativeTarget "SQLite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18A1643C1C1EA5B5002AEFA3 /* Debug */,
+				18A1643D1C1EA5B5002AEFA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18A1643E1C1EA5B5002AEFA3 /* Build configuration list for PBXNativeTarget "SQLiteTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18A1643F1C1EA5B5002AEFA3 /* Debug */,
+				18A164401C1EA5B5002AEFA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18A164411C1EA5B5002AEFA3 /* Build configuration list for PBXNativeTarget "SQLiteUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18A164421C1EA5B5002AEFA3 /* Debug */,
+				18A164431C1EA5B5002AEFA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		18A1641A1C1EA5B5002AEFA3 /* SQLite.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				18A1641B1C1EA5B5002AEFA3 /* SQLite.xcdatamodel */,
+			);
+			currentVersion = 18A1641B1C1EA5B5002AEFA3 /* SQLite.xcdatamodel */;
+			path = SQLite.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 18A164031C1EA5B5002AEFA3 /* Project object */;
+}
